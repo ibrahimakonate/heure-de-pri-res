@@ -1,0 +1,119 @@
+.groupe{
+    width: 60%;
+    margin: 100px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60PX; 
+}
+.groupe img{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+.groupe img:hover{
+    border: 1px solid  red;
+    background: red;
+    color: red;
+    rotate: 1080deg;
+    transition: 10s;
+    transition-duration: 1s;   
+}
+.heure{
+    text-align: center;
+    width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width:400px){
+    .groupe{
+    width: 60%;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60PX; 
+}
+.groupe img{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+.groupe img:hover{
+    border: 1px solid  red;
+    background: red;
+    color: red;
+    rotate: 1080deg;
+    transition: 10s;
+    transition-duration: 1s;   
+}
+    .heure{
+        text-align: center;
+        width: 284px;
+      padding: 10px 10px 20px 10px;
+      border: 1px solid #BFBFBF;
+      background-color: white;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    }
+    @media (min-width:401px) and (max-width:600px) {
+        .groupe{
+    width: 60%;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60PX; 
+}
+.groupe img{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+.groupe img:hover{
+    border: 1px solid  red;
+    background: red;
+    color: red;
+    rotate: 1080deg;
+    transition: 10s;
+    transition-duration: 1s;   
+}
+ .heure{
+        text-align: center;
+        width: 284px;
+      padding: 10px 10px 20px 10px;
+      border: 1px solid #BFBFBF;
+      background-color: white;
+      box-shadow: 10px 10px 5px #aaaaaa;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    }
